@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: build deps & slicer
-      run: ./BuildMacOS.sh -ia
+      run: ./BuildMacOS.sh -bia
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
