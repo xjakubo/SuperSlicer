@@ -1,4 +1,4 @@
-name:C++ arm macos build
+name: C++ arm macos build
 
 on:
   push:
